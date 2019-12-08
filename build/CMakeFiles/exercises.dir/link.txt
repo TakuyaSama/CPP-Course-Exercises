@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/exercises.dir/AreaTriangulo.cpp.o  -o exercises 
