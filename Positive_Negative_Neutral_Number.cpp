@@ -13,13 +13,16 @@ int	main()
 	{
 		cout << "The number is positive" << endl;
 	}
-	else
+	/*else		Version without else if, just with nested if/else.
 	{
 		if (number < 0)
 			cout << "The number is negative" << endl;
 		else
-		{
 			cout << "The number is neutral" << endl;
-		}
-	}
+	}*/
+	else if (number < 0)
+		cout << "The number is negative" << endl;
+	else
+		cout << "The number is neutral" << endl;
+	return 0;
 }
